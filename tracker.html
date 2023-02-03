@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" 
+  integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <title></title>
+</head>
+    <body>
+          <form id="my-form">
+            <label for="expense">Choose expensemount:</label>
+              <input type="text" id="exp" >
+          
+              <label for="description">Choose description:</label>
+              <input type="text" id="desc">
+           
+              <label for="category">Choose a category:</label>
+                <select name="catergory" id="cat" form="carform">
+                    <option value="movies">Movies</option>
+                    <option value="Electricity">Electricity</option>
+                    <option value="fuel">Fuel</option>
+                    <option value="food">Food</option>
+                  </select>
+            <input class="btn" type="submit" value="Add expense">
+          </form>
+    
+          <ul id="users" class="users-group"></ul>
+    
+          <ul class="items">
+            <!-- <li class="item">Item 1</li>
+            <li class="item">Item 2 </li>
+            <li class="item">Item 3 </li> -->
+          </ul>
+    
+        
+    
+        <script src="tracker.js">
+              </script>
+      </body>
+    </html>
+    
